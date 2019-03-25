@@ -1,0 +1,98 @@
+.img {
+    max-width: 100%;
+    height: 500px;
+}
+
+ul {list-style:none;}
+
+h1,h2 {
+    font-family:'Muli';
+    text-align: center;
+     padding-right: 25px;
+     color: white;
+     }
+.centered {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+@keyframes geiko {
+        0% {background-color: #ffffff;}
+        50% {background-color:#D42727;}
+        100% {background-color:#258327;}
+    }
+    
+.centered {
+    
+      animation: geiko 3s linear 0s infinite;
+    }
+        
+h5 {font-display: 'Muli';
+     color: white}
+
+.navbar-brand {
+    background-color: #D42727;
+    color: white;
+}
+.navbar {
+    background-color: #d42727;
+} 
+
+.figure-caption {
+    color: #d42727;
+    padding-right: 5px;
+    transition: 2s;
+}
+.figure-caption:hover {
+    transform: skew(-35deg);
+}  
+
+.card-img-top {
+        transition: 2s;
+    }
+.card-img-top:hover {
+        transform: scale(0.5)
+    }
+
+.btn {
+    background-color: #D42727;
+    
+}
+.button {
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-family: 'Muli';
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #D42727;
+    border: none;
+    border-radius: 5px;
+    
+}
+.button:hover {
+    background-color: #258327;
+        transition: 1s;
+    }
+.button:hover {
+        transform: scale(2);
+    }
+
+
+.gallery-of-images {
+ background-color: #000000;
+ transition: background-color 2s;
+}
+
+.gallery-of-images:hover {
+    background-color: #258327;
+    transition: background-color 2s;
+}
+
